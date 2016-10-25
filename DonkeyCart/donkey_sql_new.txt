@@ -1,0 +1,62 @@
+drop table donkeycart;
+create table donkeycart(shapeId NUMBER PRIMARY KEY,shapeName VARCHAR2(32),shape SDO_GEOMETRY);
+insert into donkeycart values(1,'donkeyLoad',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,1003,3),SDO_ORDINATE_ARRAY(8,6, 22,8)));
+insert into donkeycart values(15,'donkeyLoad1',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,1003,3),SDO_ORDINATE_ARRAY(11,5, 35,6)));
+insert into donkeycart values(2,'donkeyXbox',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,1003,3),SDO_ORDINATE_ARRAY(10,8, 12,10)));
+insert into donkeycart values(3,'donkeyMbox',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,1003,3),SDO_ORDINATE_ARRAY(12,8, 14,12)));
+insert into donkeycart values(4,'donkeyAsbox',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,1003,3),SDO_ORDINATE_ARRAY(14,8, 20,11)));
+
+insert into donkeycart values(5,'donkeyDigit',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(10.6,8.6, 11.6,9.6)));
+insert into donkeycart values(6,'donkeyDigit1',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(11.6,8.6, 10.6,9.6)));
+insert into donkeycart values(7,'donkeyDigit2',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(12.6,8.6, 12.6,11.6)));
+insert into donkeycart values(8,'donkeyDigit3',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(12.6,11.6, 13,10)));
+insert into donkeycart values(9,'donkeyDigit4',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(13.6,11.6, 13,10)));
+insert into donkeycart values(10,'donkeyDigit5',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(13.6,11.6, 13.6,8.6)));
+insert into donkeycart values(11,'donkeyDigit6',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(14.6,8.6, 15.6,10.6)));
+insert into donkeycart values(12,'donkeyDigit7',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(15.6,10.6, 16.6,8.6)));
+insert into donkeycart values(13,'donkeyDigit8',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(15,9.6, 16,9.6)));
+insert into donkeycart values(18,'donkeyTree',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(31.6,14, 35.6,14)));
+insert into donkeycart values(30,'donkeyPic4',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(27,8.6, 38,9)));
+insert into donkeycart values(31,'donkeyPic5',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(40,9.6, 40,12)));
+insert into donkeycart values(33,'donkeyPic7',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY( 41,10, 41.6,12)));
+insert into donkeycart values(34,'donkeyPic8',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(41.6,12, 41.6,10)));
+insert into donkeycart values(36,'donkeyPic10',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY( 28,2.6, 28.6,0.6)));
+insert into donkeycart values(39,'donkeyPic13',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(29.6,0.6,30.6,0.6)));
+insert into donkeycart values(40,'donkeyPic14',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(28.6,2, 29.6,0.6)));
+insert into donkeycart values(42,'donkeyPic16',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(36.6,4.6, 36.6,0.6)));
+insert into donkeycart values(43,'donkeyPic17',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(36.6,0.6, 37.6,0.6)));
+insert into donkeycart values(44,'donkeyPic18',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY( 37,1.6, 37.6,0.6)));
+insert into donkeycart values(45,'donkeyPic19',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(38,5, 37,1.6)));
+insert into donkeycart values(48,'donkeyPic22',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(40.6,4.6, 41,3.6)));
+insert into donkeycart values(50,'donkeyPic24',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(40.6,3.6, 43,4.6)));
+insert into donkeycart values(51,'donkeyPic25',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(43,4.6, 43,3.6)));
+insert into donkeycart values(54,'donkeyPic28',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,1),SDO_ORDINATE_ARRAY(26,2, 26,5)));
+
+insert into donkeycart values(14,'donkeyDigit9',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2,5,2,2),SDO_ORDINATE_ARRAY(19,10.6, 18,10, 18.6,9.6, 19,9, 18,8.6)));
+insert into donkeycart values(16,'donkeyBird1',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2,5,2,2),SDO_ORDINATE_ARRAY(11,25, 12,26, 13,25, 14,26.6, 16,25)));
+insert into donkeycart values(55,'donkeyBird2',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2,5,2,2),SDO_ORDINATE_ARRAY(48,19, 49,20, 50,19, 51,20.6, 53,19)));
+
+insert into donkeycart values(19,'donkeyTree1',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(31.6,14, 31,14.6, 32,15)));
+insert into donkeycart values(20,'donkeyTree2',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(35.6,14, 36,14.6, 35,15)));
+insert into donkeycart values(21,'donkeyTree3',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(32,15, 33,19, 32,24)));
+insert into donkeycart values(22,'donkeyTree4',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(35,15, 34,20, 35,24)));
+insert into donkeycart values(23,'donkeyTree5',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(32,24, 30.6,22, 29,26)));
+insert into donkeycart values(24,'donkeyTree6',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(29,26, 30,30, 31,29)));
+insert into donkeycart values(25,'donkeyTree7',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(31,29, 32.6,32, 37,28)));
+insert into donkeycart values(26,'donkeyTree8',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(37,28, 38.6,23.6, 35,24)));
+insert into donkeycart values(27,'donkeyPic1',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(26,6, 26,7.6, 27,8.6)));
+insert into donkeycart values(28,'donkeyPic2',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(26,2, 26.6,2.6, 27,5)));
+insert into donkeycart values(29,'donkeyPic3',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY( 38,9, 39,9, 40,9.6)));
+insert into donkeycart values(32,'donkeyPic6',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY( 40,12, 40.6,11.6, 41,10)));
+insert into donkeycart values(37,'donkeyPic11',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY( 28.6,0.6, 29,0, 30.6,0.6)));
+insert into donkeycart values(38,'donkeyPic12',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY( 29.6,5, 30,4, 28.6,2)));
+insert into donkeycart values(35,'donkeyPic9',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY( 28,5, 28.6,3, 28,2.6)));
+insert into donkeycart values(41,'donkeyPic15',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY( 29.6,5, 34,4, 36.6,4.6)));
+insert into donkeycart values(46,'donkeyPic20',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(38,5, 38.6,5.6, 40,5.6)));
+insert into donkeycart values(47,'donkeyPic21',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(40,5.6, 39.6,4.6, 40.6,4.6)));
+insert into donkeycart values(49,'donkeyPic23',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(41.6,10, 42.6,8, 43,4.6)));
+insert into donkeycart values(52,'donkeyPic26',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,2,2),SDO_ORDINATE_ARRAY(43,3.6, 42,2, 41,4.6)));
+
+insert into donkeycart values(17,'donkeyCircle',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,1003,4),SDO_ORDINATE_ARRAY(14.6,5, 13,3, 14.6,0.6)));
+insert into donkeycart values(53,'donkeyPic27',SDO_GEOMETRY(2003,NULL,NULL,SDO_ELEM_INFO_ARRAY(1,1003,4),SDO_ORDINATE_ARRAY(41.6,7, 42,7.6, 41.6,8)));
+
